@@ -98,7 +98,7 @@ export default function Home() {
       // update methods
       const whitelistContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       // call the startPresale from the contract
-      const tx = await whitelistContract.startPreale();
+      const tx = await whitelistContract.startPresale();
       setLoading(true);
       // wait for the transaction to get mined
       await tx.wait();
