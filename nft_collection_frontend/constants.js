@@ -6,7 +6,7 @@ export const abi = [
     inputs: [
       {
         internalType: "string",
-        name: "_baseUri",
+        name: "baseURI",
         type: "string",
       },
       {
@@ -411,7 +411,7 @@ export const abi = [
   },
   {
     inputs: [],
-    name: "startPreale",
+    name: "startPresale",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",
